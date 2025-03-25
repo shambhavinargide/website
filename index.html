@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Persoal Portfolio Website</title>
+
+</head>
+<body>
+    <!--Header Design-->
+
+    <header class = "header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+    </header>
+    <!--Home Section Design-->
+            <section class="home" id="home">
+<div class="home-content">
+    <h3>Hi, Myself</h3>
+    <h1>Shambhavi Nargide</h1>
+    <h3>And I'm a <span class="multiple-text"></span></h3>
+    <div class="social-media">
+        
+        <a href="https://www.instagram.com/shambhavi_1404?igsh=MTlyOWd0MnltaWt3Mw==&utm_source=ig_contact_invite"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/shambhavi-nargide-6820b7319"><i class="fa-brands fa-linkedin"></i></a>
+        
+    </div>
+    <a href="Projects/Resume.pdf" class="btn">See My Resume</a>
+
+
+</div>
+<div class="home-img">
+    <img src="Images/home1.jpg" alt="Background Images"> 
+</div>
+
+            </section>
+
+    <!--About Section Design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/about me.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hi! 👋 I'm a web developer who loves creating beautiful and user-friendly websites. I work with HTML, CSS, and JavaScript to build clean and responsive designs.
+
+                I enjoy turning ideas into stunning webpages that look great and work smoothly. When I'm not coding, I'm exploring new design trends and improving my skills.
+                </p>
+
+           <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>    
+    
+    <!--Services Section Design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+               <h3>Web Development</h3>
+               <p>I'm making stunning Web pages.As a web developer, I specialize in creating visually appealing, user-friendly, and responsive websites. My expertise lies in HTML, CSS, and JavaScript, ensuring seamless functionality across different devices and browsers. I focus on designing intuitive user interfaces while maintaining clean and efficient code.
+
+               </p>
+              <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>I'm making stunning Web pages.
+                     From static portfolio pages to dynamic web applications, I blend creativity with technical skills to build engaging digital experiences. 
+                     Whether it's enhancing UI/UX, optimizing performance, or integrating modern web technologies, I am committed to delivering high-quality
+                      web solutions tailored to users' needs.
+                    </p>
+                <!--<a href="#" class="btn">Read More</a>-->
+             </div>
+
+             
+        </div>
+    </section>
+
+   <!--Portfolio Section Design-->
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Images/tic tac toe game1.jpg" alt="Tic Tac Toe game">
+
+    <div class="portfolio-layer">
+        <h4>Tic Tac Toe Game</h4>
+        <p>Tic Tac Toe game using java programing language</p>
+        <a href="Projects/TicTacToeDemo.class"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </div>
+</div>
+
+<div class="portfolio-box">
+                <img src="Images/calculator-385506_1280.jpg" alt="">
+    
+        <div class="portfolio-layer">
+            <h4>Unit Converter</h4>
+            <p>Unit Converter using c programing language</p>
+            <a href="Projects/UnitConverter.exe"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+        </div>
+</div>
+
+<div class="portfolio-box">
+    <img src="Images/to do list.jpg" alt="">
+
+<div class="portfolio-layer">
+<h4>To do List</h4>
+<p>To Do List using c++ programming language</p>
+<a href="Projects/ToDoList.exe"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+</a>
+
+</div>
+</div>
+
+            
+    </div>
+   </section>
+
+
+      <!--Contact Section Design-->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="UserMessage.php" method="get">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+      <!--Footer Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;| All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+
+    </footer>
+
+
+     <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Typed js-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    
+    <!--Main JS-->
+
+
+
+
+
+
+ <script src="JS/main.js"></script>
+</body>
+</html>
